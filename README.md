@@ -18,7 +18,7 @@ pip install -r requirements.txt
 (tested with Python version 3.7.2 )
 ```
 ### Demo
-![Self driving car demo](media/Self Driving Car Demo.gif)
+![Self driving car demo](https://github.com/Amine5588/SelfDrivingCar/blob/feature/driver-fuzzy-model/media/Self%20Driving%20Car%20Demo.gif))
 ![Self driving car demo](https://github.com/mohameddhameem/SelfDrivingCar/blob/master/media/Self%20Driving%20Car%20Demo.gif)
 
 ## Run this project
