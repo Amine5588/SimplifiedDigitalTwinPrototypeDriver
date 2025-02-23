@@ -6,6 +6,9 @@ The project is hosted on the feature/driver-fuzzy-model branch, which includes a
 
 Fuzzy implementation of self driving car. The project is created with pygame, which have the capability to react to road situations and adjust its speed accordingly. The road situation can be implemented real time i.e put a rock in the middle of the game when the car is driving to test if the car stops.
 
+--> Use of Fuzzy Logic for the Driver Model
+The driver model in this project employs fuzzy logic to simulate human-like decision-making for controlling the vehicle. Fuzzy logic allows the driver digital twin to handle imprecise or uncertain inputs (e.g., “near” distance, “medium” angle, “green” traffic light) and produce smooth, intuitive outputs (e.g., “stop,” “slow,” “faster”) for vehicle speed and navigation.
+
 ### Prerequisites
 
 Create python virtual environment. Download this github repository.
@@ -25,8 +28,10 @@ pip install -r requirements.txt
 - after cloning, you need to build darkflow manually, this is main repo ( as is no longer pypi included) ![DarkFlow Repo](https://github.com/thtrieu/darkflow)
 
 - Run file **run.py** in package **main**
-
+This launches the self-driving car simulation with the fuzzy logic driver model, displaying a graphical interface using Pygame and simulating driver decisions based on the fuzzy rules.
 - Ensenbmle of Rules can be modified inside rule/fuzzy_rule.xlsx file. 
 
 - Play with values in the fuzzification/fuzzy_dependency.py for further customization
 
+### License
+This project is licensed under the MIT License - see the LICENSE file for details (if applicable; update or add a LICENSE file if needed).
