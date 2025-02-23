@@ -20,9 +20,9 @@ pip install -r requirements.txt
 ### Demo
 
 ![Self driving car demo](https://github.com/Amine5588/SimplifiedDigitalTwinPrototypeDriver/blob/feature/driver-fuzzy-model/media/Self%20Driving%20Car%20Demo.gif)
-![Self driving car demo](https://github.com/mohameddhameem/SelfDrivingCar/blob/master/media/Self%20Driving%20Car%20Demo.gif)
 
 ## Run this project
+- after cloning, you need to build darkflow manually, this is main repo ( as is no longer pypi included) ![DarkFlow Repo](https://github.com/thtrieu/darkflow)
 
 - Run file **run.py** in package **main**
 
